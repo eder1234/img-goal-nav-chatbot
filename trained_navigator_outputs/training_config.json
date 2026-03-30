@@ -1,0 +1,36 @@
+{
+  "train_logs": [
+    {
+      "name": "rep_dinning",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_dinning-0_224_20260328_084403_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_dinning-0_224_20260328_084403_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_dinning-0_224_20260328_084403_metadata.json"
+    },
+    {
+      "name": "rep_wc",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_wc-0_224_20260329_234614_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_wc-0_224_20260329_234614_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_wc-0_224_20260329_234614_metadata.json"
+    }
+  ],
+  "test_log": {
+    "name": "rep_bed_tv",
+    "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_bed_tv-1_224_20260329_234304_rgb.npy",
+    "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_bed_tv-1_224_20260329_234304_depth.npy",
+    "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_bed_tv-1_224_20260329_234304_metadata.json"
+  },
+  "sigma_k": 2.0,
+  "sample_rate": 1,
+  "feature_cols": [
+    "rmse",
+    "tx",
+    "ty",
+    "tz",
+    "qw",
+    "qx",
+    "qy",
+    "qz",
+    "sim_score"
+  ],
+  "best_model_name": "relu_adam"
+}
