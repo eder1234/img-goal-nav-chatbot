@@ -1,0 +1,10 @@
+(habitat) rodriguez@rodriguez-OMEN-by-HP-Gaming-Laptop-16-wd0xxx:~/Documents/GitHub/habitat/habitat-lab$ python examples/eswa-build_dataset_json.py   --image_dir dataset_png/   --output_json examples/dataset_metadata.json   --model meta-llama/llama-4-scout-17b-16e-instruct
+[INFO] Processing 1/8: rep_rep-0_224_20260405_033746_rgb.png
+[INFO] Processing 2/8: rep_rep-1_224_20260405_034113_rgb.png
+[INFO] Processing 3/8: rep_rep-2_224_20260405_034315_rgb.png
+[INFO] Processing 4/8: rep_rep-3_224_20260405_034430_rgb.png
+[INFO] Processing 5/8: rep_rep-4_224_20260405_034553_rgb.png
+[INFO] Processing 6/8: rep_rep-5_224_20260405_034659_rgb.png
+[INFO] Processing 7/8: rep_rep-6_224_20260405_034829_rgb.png
+[INFO] Processing 8/8: rep_rep-7_224_20260405_034954_rgb.png
+[OK] Saved dataset JSON to: examples/dataset_metadata.json
