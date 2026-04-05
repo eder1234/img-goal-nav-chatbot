@@ -1,0 +1,61 @@
+(habitat) rodriguez@rodriguez-OMEN-by-HP-Gaming-Laptop-16-wd0xxx:~/Documents/GitHub/habitat/habitat-lab$ python examples/eswa-retrieve_image_index.py \
+>   --json_path examples/dataset_metadata.json \
+>   --query "I want to sit down" \
+>   --clarifications "sofa" \
+>   --max_tries 2
+================================================================================
+Query: I want to sit down
+Max tries: 2
+Tries used: 2
+Ambiguity absent: False
+================================================================================
+Dialog trace:
+- Try 1: status=clarified
+  Query used: I want to sit down
+  Question: Ambiguous request. Which one do you mean: bed, chair, sofa?
+  User reply: sofa
+- Try 2: status=ambiguous
+  Query used: sofa
+  Question: Ambiguous request. Which one do you mean: sofa?
+================================================================================
+Ranked candidates:
+index=3 | score_raw=7.0000 | likeness=1.0000 | matched_objects=['sofa'] | filename=rep_rep-2_224_20260405_034315_rgb.png
+  summary=A modern living room with a couch, coffee table, and abstract art
+  reasons=['object:sofa', 'object_phrase:sofa']
+index=5 | score_raw=7.0000 | likeness=0.9500 | matched_objects=['sofa'] | filename=rep_rep-4_224_20260405_034553_rgb.png
+  summary=A living room with a white couch and windows
+  reasons=['object:sofa', 'object_phrase:sofa']
+index=7 | score_raw=7.0000 | likeness=0.9000 | matched_objects=['sofa'] | filename=rep_rep-6_224_20260405_034829_rgb.png
+  summary=A modern living room with a couch, coffee table, and abstract art
+  reasons=['object:sofa', 'object_phrase:sofa']
+(habitat) rodriguez@rodriguez-OMEN-by-HP-Gaming-Laptop-16-wd0xxx:~/Documents/GitHub/habitat/habitat-lab$ python examples/eswa-retrieve_image_index.py \
+>   --json_path examples/dataset_metadata.json \
+>   --query "I want to sleep" \
+>   --max_tries 1
+================================================================================
+Query: I want to sleep
+Max tries: 1
+Tries used: 1
+Ambiguity absent: False
+================================================================================
+Dialog trace:
+- Try 1: status=ambiguous
+  Query used: I want to sleep
+  Question: Ambiguous request. Which one do you mean: bed, sofa?
+================================================================================
+Ranked candidates:
+index=1 | score_raw=2.3000 | likeness=1.0000 | matched_objects=['bed'] | filename=rep_rep-0_224_20260405_033746_rgb.png
+  summary=a small hotel room with a bed and window
+  reasons=['intent_object:sleep->bed', 'affordance:sleep']
+index=3 | score_raw=2.3000 | likeness=0.9700 | matched_objects=['sofa'] | filename=rep_rep-2_224_20260405_034315_rgb.png
+  summary=A modern living room with a couch, coffee table, and abstract art
+  reasons=['intent_object:sleep->sofa', 'affordance:sleep']
+index=5 | score_raw=2.3000 | likeness=0.9400 | matched_objects=['sofa'] | filename=rep_rep-4_224_20260405_034553_rgb.png
+  summary=A living room with a white couch and windows
+  reasons=['intent_object:sleep->sofa', 'affordance:sleep']
+index=6 | score_raw=2.3000 | likeness=0.9100 | matched_objects=['bed'] | filename=rep_rep-5_224_20260405_034659_rgb.png
+  summary=a bedroom with a bed and a window
+  reasons=['intent_object:sleep->bed', 'affordance:sleep']
+index=7 | score_raw=2.3000 | likeness=0.8800 | matched_objects=['sofa'] | filename=rep_rep-6_224_20260405_034829_rgb.png
+  summary=A modern living room with a couch, coffee table, and abstract art
+  reasons=['intent_object:sleep->sofa', 'affordance:sleep']
