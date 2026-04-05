@@ -1,0 +1,464 @@
+{
+  "dataset_dir": "dataset_png",
+  "num_images": 8,
+  "model": "meta-llama/llama-4-scout-17b-16e-instruct",
+  "images": [
+    {
+      "index": 1,
+      "filename": "rep_rep-0_224_20260405_033746_rgb.png",
+      "summary": "a small hotel room with a bed and window",
+      "objects": [
+        {
+          "name": "bed",
+          "count": 1,
+          "attributes": [
+            "made",
+            "white"
+          ],
+          "affordances": [
+            "lie",
+            "rest",
+            "sleep"
+          ]
+        },
+        {
+          "name": "window",
+          "count": 1,
+          "attributes": [
+            "closed",
+            "with curtains"
+          ],
+          "affordances": [
+            "let_in_light",
+            "look_out",
+            "look_outside",
+            "open"
+          ]
+        },
+        {
+          "name": "light",
+          "count": 1,
+          "attributes": [
+            "on the wall"
+          ],
+          "affordances": [
+            "provide_light"
+          ]
+        },
+        {
+          "name": "table",
+          "count": 1,
+          "attributes": [
+            "small",
+            "wooden"
+          ],
+          "affordances": [
+            "put_things_on"
+          ]
+        }
+      ],
+      "scene_attributes": [
+        "hotel_room",
+        "indoor",
+        "small"
+      ]
+    },
+    {
+      "index": 2,
+      "filename": "rep_rep-1_224_20260405_034113_rgb.png",
+      "summary": "A room with white chairs and a large painting",
+      "objects": [
+        {
+          "name": "chairs",
+          "count": 2,
+          "attributes": [
+            "plastic",
+            "white"
+          ],
+          "affordances": [
+            "sit"
+          ]
+        },
+        {
+          "name": "painting",
+          "count": 1,
+          "attributes": [
+            "abstract",
+            "large"
+          ],
+          "affordances": [
+            "view"
+          ]
+        },
+        {
+          "name": "window",
+          "count": 1,
+          "attributes": [
+            "with blinds"
+          ],
+          "affordances": [
+            "look_out",
+            "look_outside",
+            "open"
+          ]
+        }
+      ],
+      "scene_attributes": [
+        "indoor",
+        "modern"
+      ]
+    },
+    {
+      "index": 3,
+      "filename": "rep_rep-2_224_20260405_034315_rgb.png",
+      "summary": "A modern living room with a couch, coffee table, and abstract art",
+      "objects": [
+        {
+          "name": "sofa",
+          "count": 1,
+          "attributes": [
+            "gray",
+            "l-shaped",
+            "upholstered"
+          ],
+          "affordances": [
+            "lie",
+            "rest",
+            "sit",
+            "sleep",
+            "watch_tv"
+          ]
+        },
+        {
+          "name": "coffee table",
+          "count": 1,
+          "attributes": [
+            "low",
+            "wooden"
+          ],
+          "affordances": [
+            "hold items",
+            "place drinks"
+          ]
+        },
+        {
+          "name": "abstract art",
+          "count": 1,
+          "attributes": [
+            "colorful",
+            "large"
+          ],
+          "affordances": []
+        },
+        {
+          "name": "rug",
+          "count": 1,
+          "attributes": [
+            "furry",
+            "gray"
+          ],
+          "affordances": []
+        },
+        {
+          "name": "cushion",
+          "count": 1,
+          "attributes": [
+            "white"
+          ],
+          "affordances": []
+        },
+        {
+          "name": "wall lamp",
+          "count": 1,
+          "attributes": [
+            "modern"
+          ],
+          "affordances": []
+        },
+        {
+          "name": "window",
+          "count": 1,
+          "attributes": [
+            "with blinds"
+          ],
+          "affordances": [
+            "look_outside",
+            "open"
+          ]
+        }
+      ],
+      "scene_attributes": [
+        "indoor",
+        "luxurious",
+        "modern"
+      ]
+    },
+    {
+      "index": 4,
+      "filename": "rep_rep-3_224_20260405_034430_rgb.png",
+      "summary": "kitchen interior",
+      "objects": [
+        {
+          "name": "sink",
+          "count": 1,
+          "attributes": [
+            "kitchen",
+            "stainless steel"
+          ],
+          "affordances": [
+            "wash dishes"
+          ]
+        },
+        {
+          "name": "dishwasher",
+          "count": 1,
+          "attributes": [
+            "built-in",
+            "kitchen"
+          ],
+          "affordances": [
+            "wash dishes"
+          ]
+        },
+        {
+          "name": "countertop",
+          "count": 2,
+          "attributes": [
+            "marbled",
+            "white"
+          ],
+          "affordances": [
+            "prepare food",
+            "store items"
+          ]
+        },
+        {
+          "name": "cabinet",
+          "count": 1,
+          "attributes": [
+            "dark",
+            "kitchen"
+          ],
+          "affordances": [
+            "open",
+            "store items",
+            "store_items"
+          ]
+        },
+        {
+          "name": "shelf",
+          "count": 1,
+          "attributes": [
+            "kitchen",
+            "white"
+          ],
+          "affordances": [
+            "store items",
+            "store_items"
+          ]
+        }
+      ],
+      "scene_attributes": [
+        "indoor",
+        "kitchen",
+        "modern"
+      ]
+    },
+    {
+      "index": 5,
+      "filename": "rep_rep-4_224_20260405_034553_rgb.png",
+      "summary": "A living room with a white couch and windows",
+      "objects": [
+        {
+          "name": "sofa",
+          "count": 1,
+          "attributes": [
+            "sectional",
+            "white"
+          ],
+          "affordances": [
+            "lie",
+            "sit",
+            "sleep",
+            "watch_tv"
+          ]
+        },
+        {
+          "name": "cushion",
+          "count": 2,
+          "attributes": [
+            "decorative"
+          ],
+          "affordances": []
+        },
+        {
+          "name": "window",
+          "count": 2,
+          "attributes": [
+            "with blinds"
+          ],
+          "affordances": [
+            "look_outside",
+            "open"
+          ]
+        }
+      ],
+      "scene_attributes": [
+        "cozy",
+        "indoor"
+      ]
+    },
+    {
+      "index": 6,
+      "filename": "rep_rep-5_224_20260405_034659_rgb.png",
+      "summary": "a bedroom with a bed and a window",
+      "objects": [
+        {
+          "name": "bed",
+          "count": 1,
+          "attributes": [
+            "made",
+            "white"
+          ],
+          "affordances": [
+            "lie",
+            "rest",
+            "sleep"
+          ]
+        },
+        {
+          "name": "window",
+          "count": 1,
+          "attributes": [
+            "large",
+            "with curtains"
+          ],
+          "affordances": [
+            "let in light",
+            "look out",
+            "look_outside",
+            "open"
+          ]
+        },
+        {
+          "name": "table",
+          "count": 1,
+          "attributes": [
+            "small",
+            "wooden"
+          ],
+          "affordances": [
+            "place items",
+            "support"
+          ]
+        }
+      ],
+      "scene_attributes": [
+        "cozy",
+        "indoor",
+        "simple"
+      ]
+    },
+    {
+      "index": 7,
+      "filename": "rep_rep-6_224_20260405_034829_rgb.png",
+      "summary": "A modern living room with a couch, coffee table, and abstract art",
+      "objects": [
+        {
+          "name": "sofa",
+          "count": 1,
+          "attributes": [
+            "gray",
+            "l-shaped",
+            "upholstered"
+          ],
+          "affordances": [
+            "lie",
+            "sit",
+            "sleep",
+            "watch_tv"
+          ]
+        },
+        {
+          "name": "coffee table",
+          "count": 1,
+          "attributes": [
+            "low",
+            "wooden"
+          ],
+          "affordances": [
+            "place drinks",
+            "store items"
+          ]
+        },
+        {
+          "name": "abstract art",
+          "count": 1,
+          "attributes": [
+            "colorful",
+            "large"
+          ],
+          "affordances": []
+        },
+        {
+          "name": "window",
+          "count": 1,
+          "attributes": [
+            "with blinds"
+          ],
+          "affordances": [
+            "look_outside",
+            "open"
+          ]
+        },
+        {
+          "name": "rug",
+          "count": 1,
+          "attributes": [
+            "furry",
+            "gray"
+          ],
+          "affordances": []
+        }
+      ],
+      "scene_attributes": [
+        "cozy",
+        "indoor",
+        "modern"
+      ]
+    },
+    {
+      "index": 8,
+      "filename": "rep_rep-7_224_20260405_034954_rgb.png",
+      "summary": "a white double door with a silver handle",
+      "objects": [
+        {
+          "name": "door",
+          "count": 2,
+          "attributes": [
+            "double",
+            "metallic handle",
+            "white"
+          ],
+          "affordances": [
+            "open"
+          ]
+        },
+        {
+          "name": "poster",
+          "count": 1,
+          "attributes": [
+            "framed",
+            "on the door"
+          ],
+          "affordances": [
+            "read"
+          ]
+        }
+      ],
+      "scene_attributes": [
+        "indoor"
+      ]
+    }
+  ]
+}
