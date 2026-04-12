@@ -1,0 +1,98 @@
+{
+  "all_logs": [
+    {
+      "name": "rep_dinning",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_dinning-0_224_20260328_084403_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_dinning-0_224_20260328_084403_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_dinning-0_224_20260328_084403_metadata.json"
+    },
+    {
+      "name": "rep_wc",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_wc-0_224_20260329_234614_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_wc-0_224_20260329_234614_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_wc-0_224_20260329_234614_metadata.json"
+    },
+    {
+      "name": "rep_kitchen-short",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_kitchen-0_224_20260330_110002_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_kitchen-0_224_20260330_110002_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_kitchen-0_224_20260330_110002_metadata.json"
+    },
+    {
+      "name": "rep_kitchen-long",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_kitchen-0_224_20260330_110101_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_kitchen-0_224_20260330_110101_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_kitchen-0_224_20260330_110101_metadata.json"
+    },
+    {
+      "name": "rep_waiting_room",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-1_224_20260330_122612_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-1_224_20260330_122612_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-1_224_20260330_122612_metadata.json"
+    },
+    {
+      "name": "rep_bed-to-lavatory",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-2_224_20260330_124559_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-2_224_20260330_124559_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-2_224_20260330_124559_metadata.json"
+    },
+    {
+      "name": "rep_left_bed",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-2_left_bed_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-2_left_bed_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-2_left_bed_metadata.json"
+    },
+    {
+      "name": "rep_right_kitchen",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-4_right_kitchen_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-4_right_kitchen_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep-4_right_kitchen_metadata.json"
+    },
+    {
+      "name": "rep_bed_tv",
+      "rgb": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_bed_tv-1_224_20260329_234304_rgb.npy",
+      "depth": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_bed_tv-1_224_20260329_234304_depth.npy",
+      "meta": "/home/rodriguez/Documents/GitHub/habitat/habitat-lab/manual_operation/simple_logs/rep_rep_bed_tv-1_224_20260329_234304_metadata.json"
+    }
+  ],
+  "sigma_k": 1.0,
+  "sample_rate": 1,
+  "update_tolerance_radius": 1,
+  "enable_imperfect_retracing_perturbations": true,
+  "early_switch_radius": 1,
+  "enable_frame_offset_augmentation": true,
+  "frame_offset_radius": 1,
+  "enable_class_balanced_feature_augmentation": true,
+  "feature_noise_std_fraction": 0.03,
+  "translation_noise_multiplier": 1.0,
+  "rotation_noise_std": 0.01,
+  "rmse_noise_multiplier": 1.0,
+  "sim_score_noise_multiplier": 1.0,
+  "feature_cols": [
+    "rmse",
+    "tx",
+    "ty",
+    "tz",
+    "qw",
+    "qx",
+    "qy",
+    "qz",
+    "sim_score"
+  ],
+  "cv_strategy": "LeaveOneGroupOut",
+  "best_model_name": "relu_adam__hls-(128,64,32)__alpha-0.001__lr-0.0001",
+  "best_model_config": {
+    "name": "relu_adam__hls-(128,64,32)__alpha-0.001__lr-0.0001",
+    "activation": "relu",
+    "solver": "adam",
+    "hidden_layer_sizes": [
+      128,
+      64,
+      32
+    ],
+    "alpha": 0.001,
+    "learning_rate_init": 0.0001
+  },
+  "n_original_final_fit_rows": 7585,
+  "n_augmented_final_fit_rows": 10896
+}
